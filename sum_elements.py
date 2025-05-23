@@ -26,10 +26,13 @@ def main():
 
         total = calculate_sum(arr)
         print("Sum of the numbers:", total)
+        total = calculate_sum(arr)
+        print("Sum of the numbers:", total)
 
     except KeyboardInterrupt:
         print("\nProgram terminated by user.")
         sys.exit(1)
 
 if __name__ == "__main__":
+    main()
     main()
